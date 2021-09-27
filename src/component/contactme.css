@@ -1,0 +1,67 @@
+.scrl{
+    overflow: auto;
+}
+
+.maps{
+    height: 350px;
+    position: relative;
+    margin: auto;
+    width: 85%;
+    border: 0;
+    margin-top: 50px;
+}
+
+.mail{
+    width: 100%;
+    margin-bottom: 2%;
+    font-size: 25px;
+}
+
+.mail-box{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 2%;
+    font-size: 25px;
+    font-family: 'Mukta', sans-serif;
+}
+.name{
+    width: 80%;
+    height: 30px;
+    margin-left: 5%;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0.596)
+}
+.email{
+    width: 80%;
+    height: 30px;
+    font-size: 20px;
+    margin-left: 5%;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0.596)
+}
+.message{
+    width: 80%;
+    height: 100px;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0.596)
+}
+
+@media only screen and (max-width:1000px) {
+    .maps{
+        width: 90%;
+    }
+    .mail-box{
+        display: block;
+
+    }
+}

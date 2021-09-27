@@ -1,0 +1,29 @@
+.h-txt{
+    font-size: 35px;
+    font-family: 'Mukta', sans-serif;
+    margin-left: 10%;
+    margin-top: -10px;
+}
+.scrl1{
+    overflow-y:scroll;
+    height: 400px;
+
+}
+
+@media only screen and (max-width : 1000px) {
+    .scrl1{
+        height: 80%;
+    }
+    .h-txt{
+        margin-left: 2%;
+        font-size: 22px;
+    }
+    
+}
+
+@media only screen and (max-height:500px) {
+    .scrl1{
+        overflow: hidden;
+    }
+    
+}

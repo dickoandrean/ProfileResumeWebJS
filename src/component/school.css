@@ -1,0 +1,41 @@
+.txt-box{
+    text-align: left;
+}
+
+.a-txt{
+    font-size: 35px;
+    font-family: 'Mukta', sans-serif;
+    margin-left: 10px;
+}
+
+.th-txt{
+    font-size: 35px;
+    font-family: 'Mukta', sans-serif;
+    margin-left: 10%;
+}
+.p-txt{
+    padding-left: 70px;
+    margin-left: 35px;
+    margin-top: -10px;
+}
+
+@media only screen and (max-width:1000px) {
+    .a-txt{
+        font-size: 25px;
+        margin-left: 2px;
+
+    }
+    .p-txt{
+        padding-left: 2px;
+        margin-left: 80px;
+        margin-top: -5px;
+    }
+    .th-txt{
+        font-size: 20px;
+        margin-left: 5px;
+    }
+    .txt-box{
+        margin-top: 1%;
+        margin-left: 5%;
+    }
+}

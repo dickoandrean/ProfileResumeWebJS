@@ -1,0 +1,71 @@
+.btmnav{
+display: absolute;
+position: fixed;
+left: 50%;
+bottom: 2%;
+text-align: center;
+align-items: center;
+justify-items: center;
+text-justify: auto;
+-ms-transform: translate(-50%);
+transform: translate( -50%);
+white-space: nowrap;
+border-radius: 20px;
+background: #4b4b4b;
+backdrop-filter: blur(5px);
+}
+
+.nav{
+    height: 100%;
+    background-color: #606060;
+    
+}
+
+.btm-text{
+    display:inline-block;
+    font-size: 20px;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: thistle;
+}
+
+
+.box{
+    display: flex;
+    height: 100;
+    top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.animated{
+    animation-name: fadeIn;
+    animation-duration: 300ms;
+    animation-timing-function:linear;
+}
+
+@media only screen and (max-width: 1000px) {
+    .box{
+        width: 95%;
+    }
+    .btmnav{
+        border-radius: 0;
+        bottom: 0px;
+        width: 100%;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    } 
+  }

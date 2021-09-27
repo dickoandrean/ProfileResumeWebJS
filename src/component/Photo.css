@@ -1,0 +1,16 @@
+.foto{
+    display: flex;
+    width: 70%;
+    height:13em;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background: #FFFFFF;
+    border-radius: 50%;
+    background-image: url('../asets/Pas\ Foto.jpg');
+    background-position: center;
+    background-size: 100%;
+}

@@ -1,0 +1,140 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Glory:ital,wght@0,400;0,700;1,800&family=Mukta:wght@800&family=Roboto+Condensed:wght@300&display=swap');
+.box-b{
+    display: absolute;
+    position: fixed;
+    text-align: center;
+    margin-left: 130px;
+    left: 30%;
+    background-color: rgba(156, 156, 156, 0.541);
+    height: 500px;
+    width: 900px;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+}
+
+.box-c{
+    position: absolute;
+    width: 100%;
+    top: 30%;
+}
+.logo-box{
+    display: none;
+
+}
+.a-title{
+    font-size-adjust: unset;
+    font-weight: bolder;
+    font-size: 36px;
+    font-family: 'Glory', sans-serif;
+}
+
+.foto_mbl{
+    display: none;
+}
+
+.p-title{
+    font-family: 'Mukta', sans-serif;
+    font-size: 40px;
+}
+
+.btn-pr{
+    display: none;
+}
+
+.expand{
+    display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+    .box-b{
+        width : 90vw;
+        margin-left: 0%;
+        left: 0%;
+        display:block;
+        position: relative;
+        margin-bottom: 15%;
+    }
+    .box-c{
+        top: 30%;
+    }
+
+    .foto_mbl{
+        display: flex;
+        position: absolute;
+        width: 30%;
+        height:20%;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin-top: 1%;
+        margin-left: 35%;
+        background: #FFFFFF;
+        border-radius: 50%;
+        background-image: url('../asets/Pas\ Foto.jpg');
+        background-position: center;
+        background-size: 100%;
+    }
+    .logo-box{
+        display:block;
+        position: absolute;
+        margin-left: 10%;
+        width: 80%;
+        height: 40px;
+    }
+    .logo-b{
+        width: 15%;
+        height: 100%;
+        left: 25%;
+        margin: 12px;
+        padding: 5;
+        transition: 0.3s;
+    }
+    .btn-pr{
+        display:block;
+        position: absolute;
+        width: 100%;
+        height: 66px;
+        bottom: 0%;
+    }
+    .btn-btn{
+        left: 0%;
+    }
+    .expand{
+        display:block;
+        margin-top: 5%;
+    }
+}
+
+@media only screen and (max-height:500px) {
+    .box-b{
+        width: 500px;
+        height: 600px;
+        left: 20%;
+        right: 20%;
+        margin-bottom: 10%;
+        position: relative;
+
+    }    
+}
+
+@media only screen and (max-width: 568px) {
+    .box-b{
+        left: auto;
+        right: auto;
+    }  
+}
+
+@media only screen and (min-width:640px) {
+    .box-b{
+        left: 5%;
+    }    
+}
+
+@media only screen and (min-width:736px) {
+    .box-b{
+        left: 20%;
+    }
+    
+}
